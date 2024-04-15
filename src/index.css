@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(206, 214, 211);
+  font-family: "Stylish", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-shadow {
+  text-shadow: 2px 1px 3px #0a0a0a;
+}
+
+.blink {
+  animation: blink-animation 1.2s infinite;
+}
+
+@keyframes blink-animation {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
