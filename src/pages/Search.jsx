@@ -7,7 +7,9 @@ function Search() {
   const [search, setSearch] = useState("");
   return (
     <Container className="relative top-20">
-      <h2 className="text-center text-3xl mt-4 mb-4">Search for people</h2>
+      <h2 className="text-center text-3xl mt-4 mb-4">
+        Search for people (use Lowercase)
+      </h2>
       <Form>
         <InputGroup className="my-2">
           <Form.Control
