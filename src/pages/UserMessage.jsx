@@ -8,7 +8,7 @@ function UserMessage({ userMessage }) {
   useEffect(() => {
     setTimeout(() => {
       setShowComponent(false);
-    }, 10000);
+    }, 7000);
   }, []);
 
   return (
