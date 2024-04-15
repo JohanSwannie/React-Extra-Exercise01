@@ -14,7 +14,8 @@ body {
 }
 
 .blink {
-  animation: blink-animation 1.2s infinite;
+  animation: blink-animation 1s;
+  animation-iteration-count: 3;
 }
 
 @keyframes blink-animation {
